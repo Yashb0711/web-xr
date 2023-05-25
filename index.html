@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; example</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="demo-styles.css" />
+
+    <!-- The following libraries and polyfills are recommended to maximize browser support -->
+    <!-- NOTE: you must adjust the paths as appropriate for your project -->
+
+    <!-- 💁 OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    <script
+      src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div id="card">
+      <!-- All you need to put beautiful, interactive 3D content on your site: -->
+      <model-viewer
+        src="public\models\Earth.glb"
+        ios-src="public\models\Earth.glb"
+        poster="public\images\earth.jpg"
+        alt="A 3D model of Earth"
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+        ar 
+      >
+      </model-viewer>
+      <section class="attribution">
+        <span>
+          <h1>Earth</h1>
+      </section>
+    </div>
+
+    <div id="card">
+        <!-- All you need to put beautiful, interactive 3D content on your site: -->
+        <model-viewer
+          src="public\models\Jupiter.glb"
+          ios-src="public\models\Jupiter.glb"
+          poster="public\images\jupiter.jpg"
+          alt="A 3D model of Jupiter"
+          shadow-intensity="1"
+          camera-controls
+          auto-rotate
+          ar
+        >
+        </model-viewer>
+        <section class="attribution">
+          <span>
+            <h1>Jupiter</h1>
+        </section>
+      </div>
+  
+      <div id="card">
+        <!-- All you need to put beautiful, interactive 3D content on your site: -->
+        <model-viewer
+          src="public\models\Mars.glb"
+          ios-src="public\models\Mars.glb"
+          poster="public\images\Mars.png"
+          alt="A 3D model of Mars"
+          shadow-intensity="1"
+          camera-controls
+          auto-rotate
+          ar
+        >
+        </model-viewer>
+        <section class="attribution">
+          <span>
+            <h1>Mars</h1>
+        </section>
+      </div>
+
+      <div id="card">
+        <!-- All you need to put beautiful, interactive 3D content on your site: -->
+        <model-viewer
+          src="public\models\Mercury.glb"
+          ios-src="public\models\Mercury.glb"
+          poster="public\images\mercury.jpg"
+          alt="A 3D model of Mercury"
+          shadow-intensity="1"
+          camera-controls
+          auto-rotate
+          ar
+        >
+        </model-viewer>
+        <section class="attribution">
+          <span>
+            <h1>Mercury</h1>
+        </section>
+      </div>
+
+      <div id="card">
+        <!-- All you need to put beautiful, interactive 3D content on your site: -->
+        <model-viewer
+          src="public\models\Neptune.glb"
+          ios-src="public\models\Neptune.glb"
+          poster="public\images\neptune.jpeg"
+          alt="A 3D model of Neptune"
+          shadow-intensity="1"
+          camera-controls
+          auto-rotate
+          ar
+        >
+        </model-viewer>
+        <section class="attribution">
+          <span>
+            <h1>Neptune</h1>
+        </section>
+      </div>
+
+      <div id="card">
+        <!-- All you need to put beautiful, interactive 3D content on your site: -->
+        <model-viewer
+          src="public\models\Saturn.glb"
+          ios-src="public\models\Saturn.glb"
+          poster="public\images\saturn.jpg"
+          alt="A 3D model of Saturn"
+          shadow-intensity="1"
+          camera-controls
+          auto-rotate
+          ar
+        >
+        </model-viewer>
+        <section class="attribution">
+          <span>
+            <h1>Saturn</h1>
+        </section>
+      </div>
+
+
+      <div id="card">
+        <!-- All you need to put beautiful, interactive 3D content on your site: -->
+        <model-viewer
+          src="public\models\Sun.glb"
+          ios-src="public\models\Sun.glb"
+          poster="public\images\sun.jpg"
+          alt="A 3D model of Sun"
+          shadow-intensity="1"
+          camera-controls
+          auto-rotate
+          ar
+        >
+        </model-viewer>
+        <section class="attribution">
+          <span>
+            <h1>Sun</h1>
+        </section>
+      </div>
+    <!-- 💁 Include both scripts below to support all browsers! -->
+
+    <!-- Loads <model-viewer> for modern browsers: -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+  </body>
+</html>
